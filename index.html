@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samostiyna Robota</title>
+    <link rel="icon" type="image/x-icon" href="https://plazacentrosur.com/img/favicons/facebook.png">
+    <link rel="stylesheet" href="form.css">
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul,
+        ol {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>1.1 Що таке HTML?</h2>
+    <h1>Мій перший заголовок</h1>
+    <p>Мій перший параграф.</p>
+
+    <h2> 1.3 HTML Основні приклади</h2>
+    <h1>Це заголовок 1</h1>
+    <h2>Це заголовок 2</h2>
+    <h3>Це заголовок 3</h3>
+    <p>Це параграф.</p>
+    <p>Це інший параграф.</p>
+
+    <h2>1.4 HTML Елементи</h2>
+    <p>Це параграф
+    <p>Це параграф
+    <p>Це параграф<br> з обривом рядка.</p>
+
+    <h2>1.5 HTML Атрибути</h2>
+    <a href="https://w3schoolsua.github.io/">Це посилання</a>
+    <p><img src="./img/bat-man.jpg" width="500" height="600"></p>
+    <p style="color:red">Це параграф червоного кольору.</p>
+
+    <h2>1.6 HTML Параграфи</h2>
+    <p>
+        Цей параграф
+        містить багато рядків
+        у вихідному коді,
+        але браузер
+        ігнорує їх.
+    </p>
+
+    <p>
+        Цей параграф
+        містить багато місця
+        у вихідному коді
+        але браузер
+        ігнорує його.
+    </p>
+
+    <p>
+        Зродились ми великої години,
+
+        З пожеж війни і з полум'я вогнів,
+
+        Плекав нас біль по втраті України,
+
+        Кормив нас гнів і злість на ворогів.
+    </p>
+
+    <pre>
+        І ось ідем у бою життєвому.
+
+        Міцні, тверді, незламні мов граніт,
+
+        Бо плач не дав свободи ще нікому,
+
+        А хто борець, той здобуває світ.
+    </pre>
+
+    <h2>1.7 HTML Посилання</h2>
+    <a href="https://www.w3schools.com/html/">HTML уроки для початківців онлайн</a>
+    <style>
+        a:link {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: pink;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+    </style>
+    <a href="index.html">
+        <img src="./img/blood-shot.jpg" alt="HTML уроки для початківців" style="width:42px;height:42px;border:0;">
+    </a>
+    <h3 id="C4">Розділ 4</h3>
+    <a href="#C4">Перейти до розділу 4</a>
+    <p><a href="https://w3schoolsua.github.io/html/index.html">HTML підручник</a></p>
+
+    <h2>1.8 HTML Зображення</h2>
+    <img src="./img/resident-evil.jpg" alt="Flowers in Chania" style="width:500px;height:600px;">
+    <p><img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com"></p>
+    <img src="img/workplace.jpg" alt="Workplace" usemap="#workmap">
+
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Комп’ютер" href="computer.html">
+        <area shape="rect" coords="290,172,333,250" alt="Телефон" href="phone.html">
+        <area shape="circle" coords="337,300,44" alt="Кава" href="coffee.html">
+    </map>
+
+    <h2>1.9 HTML Таблиці</h2>
+
+    <h2>Основна HTML таблиця</h2>
+    <table>
+        <tr>
+            <th>Ім'я</th>
+            <th>Прізвище</th>
+            <th>Вік</th>
+        </tr>
+        <tr>
+            <td>Іван</td>
+            <td>Петренко</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Марія</td>
+            <td>Шевченко</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Олег</td>
+            <td>Іваненко</td>
+            <td>40</td>
+        </tr>
+    </table>
+
+    <h2>Таблиця з цінами на продукти</h2>
+    <table>
+        <tr>
+            <th>Назва продукту</th>
+            <th>Ціна</th>
+        </tr>
+        <tr>
+            <td>Яблука</td>
+            <td>15 грн</td>
+        </tr>
+        <tr>
+            <td>Банани</td>
+            <td>25 грн</td>
+        </tr>
+        <tr>
+            <td>Груші</td>
+            <td>30 грн</td>
+        </tr>
+    </table>
+
+    <h2>Таблиця з colspan і rowspan</h2>
+    <table>
+        <tr>
+            <th>Номер</th>
+            <th>Ім'я</th>
+            <th colspan="2">Контакти</th>
+        </tr>
+        <tr>
+            <td rowspan="2">1</td>
+            <td>Анна</td>
+            <td>Телефон</td>
+            <td>Email</td>
+        </tr>
+        <tr>
+            <td>Олександр</td>
+            <td>050-123-4567</td>
+            <td>alex@ukr.net</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2</td>
+            <td>Вікторія</td>
+            <td>050-987-6543</td>
+            <td>vika@mail.com</td>
+        </tr>
+        <tr>
+            <td>Максим</td>
+            <td>067-456-7890</td>
+            <td>max@ukr.net</td>
+        </tr>
+    </table>
+
+    <h2>Таблиця книг</h2>
+    <table>
+        <tr>
+            <th>Назва книги</th>
+            <th>Автор</th>
+            <th>Рік видання</th>
+        </tr>
+        <tr>
+            <td>Мистецтво війни</td>
+            <td>Сунь Цзи</td>
+            <td>500 до н.е.</td>
+        </tr>
+        <tr>
+            <td>1984</td>
+            <td>Джордж Орвелл</td>
+            <td>1949</td>
+        </tr>
+        <tr>
+            <td>Фауст</td>
+            <td>Йоганн Гете</td>
+            <td>1808</td>
+        </tr>
+    </table>
+
+    <h2>1.10 HTML списки</h2>
+
+    <h2>Невпорядкований список</h2>
+    <ul>
+        <li>Елемент 1</li>
+        <li>Елемент 2</li>
+        <li>Елемент 3</li>
+        <li>Елемент 4</li>
+    </ul>
+
+    <h2>Впорядкований список</h2>
+    <ol>
+        <li>Перший етап</li>
+        <li>Другий етап</li>
+        <li>Третій етап</li>
+        <li>Четвертий етап</li>
+    </ol>
+
+    <h2>Впорядкований список з римськими цифрами</h2>
+    <ol type="I">
+        <li>Римська цифра I</li>
+        <li>Римська цифра II</li>
+        <li>Римська цифра III</li>
+        <li>Римська цифра IV</li>
+    </ol>
+
+    <h2>Список визначень</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Мова розмітки гіпертексту, яка використовується для створення вебсторінок.</dd>
+
+        <dt>CSS</dt>
+        <dd>Каскадні таблиці стилів, які визначають зовнішній вигляд HTML-елементів.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Мова програмування, що дозволяє додати інтерактивність до вебсторінок.</dd>
+    </dl>
+
+    <h2>2.1 HTML форми</h2>
+
+    <form action="/submit-form" method="POST"></form>
+        <label for="first-name">Ім'я:</label>
+        <input type="text" id="first-name" name="first-name" placeholder="Введіть ім'я" required>
+
+        <label for="last-name">Прізвище:</label>
+        <input type="text" id="last-name" name="last-name" placeholder="Введіть прізвище" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" minlength="8" required>
+
+        <label for="phone">Номер телефону:</label>
+        <input type="tel" id="phone" name="phone" placeholder="050-123-4567">
+
+        <label for="dob">Дата народження:</label>
+        <input type="text" id="dob" name="dob" placeholder="01/01/2000" required>
+
+        <label for="age">Вік:</label>
+        <input type="number" id="age" name="age" min="18" max="99">
+
+        <label for="gender">Стать:</label>
+        <select id="gender" name="gender">
+            <option value="male">Чоловік</option>
+            <option value="female">Жінка</option>
+            <option value="other">Інше</option>
+        </select>
+
+        <label for="comments">Коментарі:</label>
+        <textarea id="comments" name="comments" rows="4" placeholder="Напишіть ваші коментарі..."></textarea>
+
+        <label>
+            <input type="checkbox" name="terms" required> Погоджуюсь з умовами
+        </label>
+
+        <input type="submit" value="Відправити">
+    </form>
+
+
+</body>
+
+</html>
